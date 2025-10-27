@@ -1,1 +1,120 @@
-"# AgunodMayJoy_mid_exam" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Diet & Exercise Tracker</title>
+</head>
+
+     <tr>
+        <td>
+            <img src="image/Banner.png" width="100%" alt="Banner">
+        </td>
+    </tr>
+    
+<body margin="5px">
+    <table width="90%" align="center" cellpadding="10" cellspacing="0">
+
+        <tr vertical-align="top">
+
+            <td width="50%">
+                <form>
+                    <fieldset>
+                        <legend><b>Personal Info</b></legend>
+                        <table>
+                            <tr>
+                                <td>Name:</td>
+                                <td><input type="text" width="10px" required></td>
+                            </tr>
+                            <tr>
+                                <td>Age:</td>
+                                <td><input type="number" width="10px" required></td>
+                            </tr>
+                            <tr>
+                                <td>Gender:</td>
+                                <td>
+                                    <select required>
+                                        <option disabled selected>--Select--</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend><b>Diet Tracking (Mon–Fri)</b></legend>
+                        <table border="1" cellpadding="3" cellspacing="0">
+                            <tr>
+                                <th>Day</th>
+                                <th>Calories</th>
+                            </tr>
+                            <tr>
+                                <td>Mon</td>
+                                <td><input type="number" required></td>
+                            </tr>
+                            <tr>
+                                <td>Tue</td>
+                                <td><input type="number" required></td>
+                            </tr>
+                            <tr>
+                                <td>Wed</td>
+                                <td><input type="number" required></td>
+                            </tr>
+                            <tr
+                                ><td>Thu</td>
+                                <td><input type="number" required></td>
+                            </tr>
+                            <tr>
+                                <td>Fri</td>
+                                <td><input type="number" required></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend><b>Exercise (Mon–Fri)</b></legend>
+                        <table border="1" cellpadding="3" cellspacing="0">
+                            <tr>
+                                <th>Day</th>
+                                <th>Minutes</th>
+                            </tr>
+                            <tr>
+                                <td>Mon</td>
+                                <td><input type="number" required></td>
+                            </tr>
+                            <tr>
+                                <td>Tue</td>
+                                <td><input type="number" required></td>
+                            </tr>
+                            <tr>
+                                <td>Wed</td>
+                                <td><input type="number" required></td>
+                            </tr>
+                            <tr
+                                ><td>Thu</td>
+                                <td><input type="number" required></td>
+                            </tr>
+                            <tr>
+                                <td>Fri</td>
+                                <td><input type="number" required></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+
+                    <br>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+            </td>
+
+
+            <td align="center">
+                <iframe width="600" height="400" src="https://www.youtube.com/embed/Cbs6k8VUuNI"></iframe>
+                <p>Watch this video for tips on healthy eating and exercise!</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
